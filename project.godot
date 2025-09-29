@@ -11,8 +11,16 @@ config_version=5
 [application]
 
 config/name="Gem Catcher"
+run/main_scene="uid://by4ylpsd1xyrf"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[file_customization]
+
+folder_colors={
+"res://assets/": "red",
+"res://scenes/": "orange"
+}
 
 [rendering]
 
