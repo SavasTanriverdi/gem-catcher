@@ -17,4 +17,8 @@ position = Vector2(528, 590)
 [node name="Gem" parent="." instance=ExtResource("3_0sr1o")]
 position = Vector2(575, 97)
 
-[editable path="Paddle"]
+[node name="Gem2" parent="." instance=ExtResource("3_0sr1o")]
+position = Vector2(886, 64)
+
+[node name="Gem3" parent="." instance=ExtResource("3_0sr1o")]
+position = Vector2(345, 141)
