@@ -4,7 +4,7 @@ class_name Gem
 
 @onready var gem: Area2D = $"."
 
-const  SPEED: float = 100.0
+const  SPEED: float = 200.0
 
 signal gem_off_screen
 
