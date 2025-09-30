@@ -1,15 +1,13 @@
 extends Area2D
 
-const SPEED: float = 200.0
+class_name Paddle
+
+const SPEED: float = 300.0
 
 
-
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
+	pass 
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	var movment: float = Input.get_axis("move_left", "move_right")
 	
@@ -20,3 +18,7 @@ func _process(delta: float) -> void:
 		get_viewport_rect().position.x,
 		get_viewport_rect().end.x
 	)
+	
+
+func _on_area_entered(_area: Area2D) -> void:
+	print("_on_area_entered from Paddle Definiton")
