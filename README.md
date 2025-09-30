@@ -97,4 +97,4 @@ Note: If you prefer different bindings, you can remap input actions in `Project 
 
 ## License
 
-No explicit license is currently provided. Contact the maintainer if you want to reuse or distribute this project. You may add a license later by including a `LICENSE` file and updating this section.
+MIT
