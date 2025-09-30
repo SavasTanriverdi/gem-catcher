@@ -9,6 +9,9 @@ A small, polished arcade-style game built with the Godot Engine. Move the paddle
 - Lightweight assets and GDScript-only code
 - Clean scene separation: `game`, `paddle`, and `gem`
 
+  ![gem_catcher](https://github.com/user-attachments/assets/24c02b76-036c-4d4e-982e-56b35821e41d)
+
+
 ## Getting Started
 
 ### Prerequisites
