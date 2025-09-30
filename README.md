@@ -2,12 +2,20 @@
 
 A small, polished arcade-style game built with the Godot Engine. Move the paddle to catch falling gems, keep your streak going, and enjoy snappy gameplay with sound effects and background music.
 
+
+
 ## Overview
 
 - Fast, responsive paddle controls
 - Simple, addictive gem-catching loop
 - Lightweight assets and GDScript-only code
 - Clean scene separation: `game`, `paddle`, and `gem`
+
+## Preview
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/24c02b76-036c-4d4e-982e-56b35821e41d" alt="Gem Catcher gameplay preview GIF" width="720">
+</p>
 
 ## Getting Started
 
